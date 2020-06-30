@@ -2,7 +2,7 @@
 if(isset($_POST["loginb"])){
 $id=$_POST["id"];
 $pass=$_POST["pass"];
-if ($id=='bhartikawadkar951' && $pass=='bharti'){
+if ($id=='keval159' && $pass=='keval'){
 	header("Location:exam_paper.html");
 }
 else{
