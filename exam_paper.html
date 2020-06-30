@@ -1,0 +1,98 @@
+<html>
+	<head>
+		<title>Exam Page</title>
+		<style>
+			body{
+  		background-image:url("exam_paper_image.jpg");
+				background-repeat:no-repeat;
+				background-attachment:fixed;
+				background-size:100% 100%;	
+				}
+		 input{
+			 font-size:50px;
+			 padding:21px 0px;
+			 background-color:transparent;
+			 }
+			 #stc{
+			 	font-size: 100px;
+  background: -webkit-linear-gradient(#ffffff,#0088ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+			 }
+			 .ih1{
+			 	font-size: 80px;
+  background: -webkit-linear-gradient(#ffffff,#0088ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+			 }
+			 #scc{
+			 	padding:25px 0px;
+			 	font-size:39px;
+  background: -webkit-linear-gradient(#ffffff,#0088ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+			 }
+			 .q{
+			 	 color:red;
+			 	 font-size:60px;
+			 	 
+			 }
+			 textarea{
+			 	color:#0000ff;
+			 	font-size:50px;
+			 }
+			 </style>
+	</head>
+	<body>
+	
+		<center><h1 id="stc">Savarna	tution classes</h1></center>
+
+	<form action="exam_paper.php"method="POST">
+		<h1 class="ih1">Enter your name:
+		<input type="text"name="student_name"autocomplete="off"size="32px"><br><br>
+		<select name="sub"id="scc">
+			<option value="Science 1"> (Select Subject) </option>
+				<option value="Science 1"> Science 1 </option>
+				<option value="Science 2"> Science 2 </option>
+				</select>		
+					
+				<select name="less"id="scc">
+							
+				<option value="Chapter 1"> (Slect Chapter) </option>	
+								<option value="Chapter 1"> Chapter 1 </option>	
+				<option value="Chapter 2"> Chapter 2 </option>
+				<option value="Chapter 3"> Chapter 3 </option>	
+				<option value="Chapter 4"> Chapter 4 </option>
+				<option value="Chapter 5"> Chapter 5 </option>
+				<option value="Chapter 6"> Chapter 6 </option>	
+				<option value="Chapter 7"> Chapter 7 </option>
+				<option value="Chapter 8"> Chapter 8 </option>	
+				<option value="Chapter 9"> Chapter 9 </option>
+				<option value="Chapter 10"> Chapter 10 </option>
+				</select>
+			
+						<select name="class"id="scc">
+				<option value="10th Class">(Select your class)</option>
+						<option value="5th Class"> 5th class </option>				
+							<option value="6th Class"> 6th class </option>								
+								<option value="7th Class"> 7th class </option>		
+																<option value="8th Class"> 8th class </option>		
+																											<option value="9th Class"> 9th class </option>		
+																				<option value="10th Class"> 10th class </option>	
+		</select>	
+			<h1 class="q">Q.1.what is the Newton's first law of gravity?</h1>
+			<textarea id="q1"name="q1"rows="2"cols="32">
+Q.1.Ans:≈> 
+			</textarea>
+			<h1 class="q">Q.2.what is the Newton's secound law of gravity?</h1>
+			<textarea id="q2"name="q2"rows="2"cols="32">
+Q.2.Ans:≈> 
+			</textarea>
+			<h1 class="q">Q.3.what is the Newton's secound law of gravity?</h1><br>
+			<textarea id="q3"name="q3"rows="2"cols="32">
+Q.3.Ans:≈> 
+			</textarea>
+		<center><br><br><br><input type="image"src="paper_submit_icon.jpg"alt="submit"weight="200px"height="100px"></center>
+										
+					</body>
+					</html>									
